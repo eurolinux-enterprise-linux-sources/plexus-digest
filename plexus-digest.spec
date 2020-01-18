@@ -33,7 +33,7 @@
 
 Name:           plexus-digest
 Version:        1.1
-Release:        14%{?dist}
+Release:        15%{?dist}
 Epoch:          0
 Summary:        Plexus Digest / Hashcode Components
 License:        ASL 2.0
@@ -97,6 +97,9 @@ Javadoc for %{name}.
 %files javadoc -f .mfiles-javadoc
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.1-15
+- Mass rebuild 2013-12-27
+
 * Fri Sep 27 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.1-14
 - Do not use algorithm name as regular expression
 
